@@ -20,22 +20,6 @@
       "rg": 390030735,
       "endereco": "Jardim boa esperança",
       "cep": 19103125
-    },
-    {
-      "name": "Felipe",
-      "rg": "999999",
-      "cpf": "999999",
-      "endereco": "Jardim Harmonia",
-      "cep": "1819203",
-      "id": 4
-    },
-    {
-      "name": "2",
-      "rg": "2",
-      "cpf": "",
-      "endereco": "",
-      "cep": "",
-      "id": 5
     }
   ]
 }

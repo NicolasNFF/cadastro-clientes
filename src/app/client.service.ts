@@ -8,6 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class ClientService {
 
+
   client : Client[] = [];
   baseUrl: string = "http://localhost:3000/client";
 
@@ -21,6 +22,11 @@ export class ClientService {
 
   save(client: Client): Observable<Client>{ // Serviço que esta salvando cliente
     return this.http.post<Client>(this.baseUrl, client);
+  }
+
+  delete(client: Client):Observable<void> {
+    let url = `${this.baseUrl}/${client.id}`;
+    return this.http.delete<void>(url); // Serviço para remover o cadastro do cliente
   }
  }
 

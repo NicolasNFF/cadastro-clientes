@@ -49,6 +49,14 @@ export class ClientComponent implements OnInit{//OnInit momento de inicializaç�
     )
   }
 
+  delete(client: Client){ //metodo para excluir cadastro de cliente para o botão "Remover"
+    this.clientService.delete(client).subscribe({
+      next: () => {
+            this.client =  this.client.filter(p => p.id !== client.id)
+      }
+    })
+  }
+
 
 
 }
