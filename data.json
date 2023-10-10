@@ -1,25 +1,36 @@
 {
   "client": [
     {
-      "id": 1,
-      "name": "Matheus Ferraz",
-      "rg": 317030735,
-      "endereco": "Flôr do Carvalho",
-      "cep": 18103125
+      "name": "Lucas",
+      "rg": "3829390209",
+      "cpf": "32993289",
+      "endereco": "Jardim Santa Rosália",
+      "cep": "18095-040",
+      "id": 4
     },
     {
-      "id": 2,
-      "name": "Fernando Torres",
-      "rg": 90030735,
-      "endereco": "Jardim Nathalia",
-      "cep": 2503125
+      "name": "Nicolas Fernandes",
+      "rg": "199999",
+      "cpf": "54829230",
+      "endereco": "Jardim Harmonia",
+      "cep": "18293023",
+      "id": 5
     },
     {
-      "id": 3,
-      "name": "Pedro Santos",
-      "rg": 390030735,
-      "endereco": "Jardim boa esperança",
-      "cep": 19103125
+      "name": "Fernando Torres\t",
+      "rg": "90030735",
+      "cpf": null,
+      "endereco": "Jardim Nathalia\t",
+      "cep": "2503125",
+      "id": 6
+    },
+    {
+      "name": "Pedro Santos\t",
+      "rg": "390030735\t",
+      "cpf": "3729392399",
+      "endereco": "Jardim Nathalia\t",
+      "cep": "18293023\t",
+      "id": 7
     }
   ]
 }

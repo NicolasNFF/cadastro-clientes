@@ -24,6 +24,11 @@ export class ClientService {
     return this.http.post<Client>(this.baseUrl, client);
   }
 
+  update(client: Client): Observable<Client>{ // Serviço para atualizar os dados do cadastrado de clientes ao Editar
+    let url = `${this.baseUrl}/${client.id}`;
+    return this.http.put<Client>(url, client);
+  }
+
   delete(client: Client):Observable<void> {
     let url = `${this.baseUrl}/${client.id}`;
     return this.http.delete<void>(url); // Serviço para remover o cadastro do cliente
