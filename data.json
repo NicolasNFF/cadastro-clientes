@@ -1,0 +1,41 @@
+{
+  "client": [
+    {
+      "id": 1,
+      "name": "Matheus Ferraz",
+      "rg": 317030735,
+      "endereco": "Flôr do Carvalho",
+      "cep": 18103125
+    },
+    {
+      "id": 2,
+      "name": "Fernando Torres",
+      "rg": 90030735,
+      "endereco": "Jardim Nathalia",
+      "cep": 2503125
+    },
+    {
+      "id": 3,
+      "name": "Pedro Santos",
+      "rg": 390030735,
+      "endereco": "Jardim boa esperança",
+      "cep": 19103125
+    },
+    {
+      "name": "Felipe",
+      "rg": "999999",
+      "cpf": "999999",
+      "endereco": "Jardim Harmonia",
+      "cep": "1819203",
+      "id": 4
+    },
+    {
+      "name": "2",
+      "rg": "2",
+      "cpf": "",
+      "endereco": "",
+      "cep": "",
+      "id": 5
+    }
+  ]
+}
